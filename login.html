@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iniciar Sesión - Empresa de Maquillaje</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div id="login-form" class="form">
+      <h2>Iniciar Sesión</h2>
+      <form id="loginForm">
+        <input type="text" id="username" placeholder="Usuario" required>
+        <input type="password" id="password" placeholder="Contraseña" required>
+        <button type="submit">Iniciar Sesión</button>
+      </form>
+      <p class="message">¿Nuevo aquí? <a href="#" id="showRegister">Regístrate</a></p>
+    </div>
+    <div id="register-form" class="form hidden">
+      <h2>Registro</h2>
+      <form id="registerForm">
+        <input type="text" id="newUsername" placeholder="Nuevo Usuario" required>
+        <input type="password" id="newPassword" placeholder="Nueva Contraseña" required>
+        <button type="submit">Registrarse</button>
+      </form>
+      <p class="message">¿Ya tienes cuenta? <a href="#" id="showLogin">Inicia sesión</a></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

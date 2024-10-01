@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4cccc; /* Rosa claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .form {
+    display: none;
+  }
+  
+  .form h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #e6007e; /* Rosa oscuro */
+  }
+  
+  .form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .form button {
+    padding: 10px;
+    background-color: #e6007e; /* Rosa oscuro */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .message {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .message a {
+    color: #e6007e; /* Rosa oscuro */
+    text-decoration: none;
+  }
+  
+  .message a:hover {
+    text-decoration: underline;
+  }
+
+.text-center text-lg-start bg-body-tertiary text-muted {
+  background-color: var(--primary-color);
+}
+  
